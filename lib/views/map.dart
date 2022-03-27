@@ -27,8 +27,8 @@ class _myMapState extends State<myMap> {
         .doc(widget.name)
         .get()
         .then((value) {
-      lat = double.parse(value.data()['Location'][0]);
-      long = double.parse(value.data()['Location'][1]);
+      lat = double.parse(value['Location'][0]);
+      long = double.parse(value['Location'][1]);
       print(lat);
       print(long);
       setState(() {

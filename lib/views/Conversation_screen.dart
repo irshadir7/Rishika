@@ -58,8 +58,8 @@ class _ConversationState extends State<Conversation> {
               itemCount: snapshot.data.docs.length,
               itemBuilder: (context, index) {
                 return MessageTile(
-                  message: snapshot.data.docs[index].data()['message'],
-                  isSendbyMe: snapshot.data.docs[index].data()['sendby'] ==
+                  message: snapshot.data.docs[index]['message'],
+                  isSendbyMe: snapshot.data.docs[index]['sendby'] ==
                       Constants.MyName,
                 );
               });

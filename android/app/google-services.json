@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1057127367560",
+    "project_id": "rishika-b7342",
+    "storage_bucket": "rishika-b7342.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057127367560:android:fd48ee9d1160c662bff03d",
+        "android_client_info": {
+          "package_name": "com.example.chatApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057127367560-a310a57u6b0c1thlmm120k6u60q8qbe2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRJi6B72fPJQgUp9jULGw3KIkQuCGfIsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057127367560-a310a57u6b0c1thlmm120k6u60q8qbe2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

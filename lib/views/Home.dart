@@ -74,15 +74,15 @@ class _HomeState extends State<Home> {
               return ListView.builder(
                   itemCount: snapshot.data.docs.length,
                   itemBuilder: (context, index) {
-                    if (snapshot.data.docs[index].data()["users"][0] ==
+                    if (snapshot.data.docs[index]["users"][0] ==
                         Constants.MyName) {
                       return chatTile(
-                          snapshot.data.docs[index].data()["users"][1],
-                          snapshot.data.docs[index].data()["ChatroomId"]);
+                          snapshot.data.docs[index]["users"][1],
+                          snapshot.data.docs[index]["ChatroomId"]);
                     } else {
                       return chatTile(
-                          snapshot.data.docs[index].data()["users"][0],
-                          snapshot.data.docs[index].data()["ChatroomId"]);
+                          snapshot.data.docs[index]["users"][0],
+                          snapshot.data.docs[index]["ChatroomId"]);
                     }
                   });
             })

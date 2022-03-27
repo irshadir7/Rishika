@@ -38,7 +38,7 @@ class Databasemethods {
   double longi;
   List<String> mylocation;
   savelocation() async {
-    Position position = await Geolocator().getCurrentPosition(
+    Position position = await Geolocator.getCurrentPosition(
         desiredAccuracy: LocationAccuracy.bestForNavigation);
     lat = position.latitude;
     longi = position.longitude;
